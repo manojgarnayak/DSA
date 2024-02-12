@@ -1,0 +1,34 @@
+# prev_list = [1,2,3]
+# new_list = [i * 2 for i in prev_list]
+# print(new_list)
+
+# language = "manoj"
+# new_lang = [letter for letter in language]
+# print(new_lang)
+
+
+# prev_list = [-1, 10, -20, 2, -90, 60, 45, 20]
+# new_list = [item for item in prev_list if item > 0]
+# print(new_list)
+
+
+# prev_list = [-1, 10, -20, 2, -90, 60, 45, 20]
+# new_list = [item**2 for item in prev_list if item < 0]
+# print(new_list)
+
+sentence = "My name is Manoj"
+
+def is_consonant (letter):
+    vowels = "aeiou"
+    return letter.isalpha() and letter.lower() not in vowels
+
+print(is_consonant('t'))
+
+consonants = [i for i in sentence if is_consonant(i)]
+print(consonants)
+
+
+
+prev_list = [-1, 10, -20, 2, -90, 60, 45, 20]
+new_list = [number if number > 0 else 0 for number in prev_list]
+print(new_list)
