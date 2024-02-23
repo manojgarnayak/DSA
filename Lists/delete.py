@@ -1,4 +1,4 @@
-mylist = ['a','b','c','d','e']
+mylist = ['a','b','c','d','e','f']
 
 # print(mylist[0:2])
 # print(mylist[2:])
